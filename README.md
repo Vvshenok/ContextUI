@@ -1,6 +1,6 @@
 # ContextUI
 
-[![docs](https://img.shields.io/github/actions/workflow/status/Vvshenok/ContextUI/docs.yml?branch=main&label=docs&style=plastic)](https://github.com/Vvshenok/ContextUI/actions/workflows/docs.yml)
+[![docs](https://img.shields.io/github/actions/workflow/status/Vvshenok/ContextUI/pages/pages-build-deployment?branch=gh-pages&label=docs&style=plastic)](https://github.com/Vvshenok/ContextUI/actions/workflows/pages/pages-build-deployment)
 [![Version](https://img.shields.io/badge/version-v1-blue?style=plastic)](https://github.com/Vvshenok/ContextUI/releases/latest)
 [![License](https://img.shields.io/github/license/Vvshenok/ContextUI?style=plastic)](LICENSE)
 [![Roblox Luau](https://img.shields.io/badge/Roblox-Luau-red?style=plastic)](https://create.roblox.com/docs/luau)
