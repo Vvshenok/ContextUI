@@ -1,0 +1,104 @@
+site_name: ContextUI
+site_description: A contextual interface library for Roblox by Interactive Studios.
+site_author: Vvshenok · Interactive Studios
+site_url: https://vvshenok.github.io/ContextUI/
+repo_name: Vvshenok/ContextUI
+repo_url: https://github.com/Vvshenok/ContextUI
+edit_uri: edit/main/docs/
+copyright: Copyright © 2026 Vvshenok & Interactive Studios
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/tooltip-outline
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Getting Started: getting-started.md
+      - Installation: installation.md
+      - Basic Usage: basic-usage.md
+  - Guides:
+      - Build a context:
+          - Contexts: contexts.md
+          - Targets: targets.md
+          - Components: components.md
+          - Buttons: buttons.md
+          - Interaction: interaction.md
+          - Positioning: positioning.md
+          - Stats: stats.md
+          - Expansion: expansion.md
+          - Pinning: pinning.md
+      - Customize:
+          - Themes: themes.md
+          - Animations: animations.md
+          - Advanced Configuration: advanced-configuration.md
+  - API Reference: api-reference.md
+  - Examples: examples.md
+  - More:
+      - Cleanup and lifecycle: lifecycle.md
+      - Performance: performance.md
+      - Contributing: contributing.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+validation:
+  nav:
+    omitted_files: warn
+  links:
+    not_found: warn
+    unrecognized_links: warn
+    anchors: warn

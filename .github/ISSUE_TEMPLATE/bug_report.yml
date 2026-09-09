@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible ContextUI issue to Interactive Studios.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: ContextUI and Roblox Studio versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include a minimal script, target type, input device, expected result, and actual result.
+    validations:
+      required: true
